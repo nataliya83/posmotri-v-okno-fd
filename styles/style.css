@@ -118,7 +118,6 @@ fieldset {
   font-size: inherit;
   font-weight: inherit;
   width: 225px;
-  
 }
 
 .search-form__textfield::placeholder {
@@ -140,7 +139,6 @@ fieldset {
   height: 19px;
   padding: 1px;
   border: 1px solid white;
-
 }
 
 .search-form__pseudo-checkbox::after {
@@ -173,7 +171,6 @@ fieldset {
   font-weight: 700;
   background-color: transparent;
   cursor: pointer;
-  
 }
 
 .search-form__submit-button {
@@ -207,7 +204,6 @@ fieldset {
   outline: 1px solid white;
   outline-offset: 1px;
 }
-
 
 .content__details {
   display: flex;
