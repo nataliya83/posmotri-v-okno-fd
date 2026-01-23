@@ -109,14 +109,14 @@ fieldset {
 .search-form__textfield {
   cursor: pointer;
   background-color: transparent;
-  color: #fff;
-  border: 1px solid #fff;
+  color: inherit;
+  border: 1px solid currentColor;
   border-right: none;
   border-left: none;
   appearance: none;
   font-family: inherit;
   font-size: inherit;
-  font-weight: inherit;
+  font-weight: 400;
   width: 225px;
 }
 
@@ -146,7 +146,7 @@ fieldset {
   display: block;
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background-color: white;
   opacity: 0;
 }
 
@@ -164,8 +164,8 @@ fieldset {
 }
 
 .button {
-  border: 1px solid #FFFFFF;
-  color: #ffffff;
+  color: inherit;
+  border: 1px solid currentColor;
   font-size: inherit;
   font-family: inherit;
   font-weight: 700;
@@ -201,7 +201,7 @@ fieldset {
 }
 
 .button:focus-visible {
-  outline: 1px solid white;
+  outline: 1px solid currentColor;
   outline-offset: 1px;
 }
 
@@ -213,7 +213,7 @@ fieldset {
 }
 
 .title {
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-size: 75px;
   font-weight: 700;
   text-transform: uppercase;
@@ -255,8 +255,8 @@ fieldset {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;
-  font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
 
@@ -277,7 +277,7 @@ fieldset {
 .content__card-link {
   display: block;
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
 } 
 
 .content__card-link_current {
